@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = "_LayoutLogo";
+}
+<script>
+    var realAppDomain = "<%= hostName %>"
+</script>
+<script src="~/js/helpers/view_cashout_request.js"></script>
+
+<script src="~/js/helpers/Base64.js"></script>
+<script src="~/js/helpers/canvg.js"></script>
+<script src="~/js/helpers/rgbcolor.js"></script>
+<script src="~/js/helpers/StackBlur.js"></script>
+
+<section class="page_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Cashout Requests</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-responsive tblPurchasedCards">
+                <tr>
+                    <th class="col-md-2">Name</th>
+                    <th class="col-md-2">Email</th>
+                    <th class="col-md-2">Amount Request</th>
+                    <th class="col-md-2">Payment Method</th>
+                    <th class="col-md-2">Payment Details</th>
+                    <th class="col-md-2">Status</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
